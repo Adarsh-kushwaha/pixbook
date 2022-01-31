@@ -55,9 +55,9 @@ const PinDetail = ({ user }) => {
             fetchPinDetails()
         }
         return () => {
-            unmounted = true
+            unmounted = true;
         }
-    }, [pinId]);
+    }, );
 
 
 
